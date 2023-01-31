@@ -1,26 +1,28 @@
-nav li {
-  list-style-type: none;
-}
-
-nav li > a {
+* {
+  list-style: none;
   text-decoration: none;
   color: black;
-  font-family: sans-serif;
-  text-align: center;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 80px;
 }
 
 header {
-  max-width: 80vw;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  display: inline;
+  border-left: solid 1px black;
+  padding: 30px;
+}
+
+li:first-child {
+  border: none;
 }
 
 nav {
-  background-color: palevioletred;
-  padding: 30px;
+  background-color: lightcoral;
+}
+
+ul {
+  padding: 20px;
 }
